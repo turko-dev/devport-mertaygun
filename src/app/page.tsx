@@ -200,7 +200,7 @@ export default function Home() {
                             <p className="paragraph ftext">.js</p>
                           </div>
                       </div>
-                      <p className="paragraph ftext">CodeTagMarkup is a tool that allows for &lt;code&gt; tags to be displayed within HTML itself such as for websites showcasing coding tutorials and samples.</p>
+                      <p className="paragraph ftext">CodeTagMarkup is a tool that allows for code tags to be displayed within HTML itself such as for websites showcasing coding tutorials and samples.</p>
                       <div className="item_heading">
                         <div className="nav_box">
                           <p className="paragraph ftext">Markup Converter</p>
