@@ -2,7 +2,7 @@
 import * as motion from "framer-motion/client"
 import { useRef } from "react";
 import { useInView } from "framer-motion";
-import Link from 'next/link'
+import Link from "next/link"
 
 export default function Home() {
   const projectList = {
@@ -16,7 +16,7 @@ export default function Home() {
     github: "https://github.com/turko-dev"
   }
   function newWindow(url: string) {
-    window.open(url, '_blank');
+    window.open(url, "_blank");
   }
   const ref = useRef(null)
   const isInView = useInView(ref, {once: true})
@@ -52,7 +52,7 @@ export default function Home() {
               stiffness: 260,
               damping: 50
             }}
-            className="heading shadow ftext">I'm <span className="title">Mert Aygun</span></motion.p>
+            className="heading shadow ftext">I&apos;m <span className="title">Mert Aygun</span></motion.p>
             <motion.p 
             initial={{ y: 100, opacity:0 }}
             animate={{ y: 0, opacity:1 }}
@@ -138,7 +138,7 @@ export default function Home() {
                       <p className="paragraph btext">.ts</p>
                     </div>
                   </div>
-                  <p className="paragraph ftext">Curvitae is an online CV templating and hosting platform that attempts to change the way we see CV's and job applications.</p>
+                  <p className="paragraph ftext">Curvitae is an online CV templating and hosting platform that attempts to change the way we see CVs and job applications.</p>
                   <div className="item_heading">
                     <div className="nav_box">
                       <p className="paragraph ftext">Online Platform</p>
