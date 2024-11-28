@@ -8,12 +8,10 @@ export default function Home() {
   const projectList = {
     sweetmapper: "https://github.com/turko-dev/sweetmapper",
     codetagmarkup: "https://codetagmarkup.vercel.app/",
-    curvitae: "https://google.com",
+    curvitae: "/",
     turkolib: "https://github.com/turko-dev/turko-lib",
     
-    
     certificate: "https://www.freecodecamp.org/certification/Mert_Aygun/responsive-web-design",
-
 
     insta: "https://www.instagram.com/turko.mcr/",
     linkedin: "https://www.linkedin.com/in/mert-aygun/",
@@ -135,8 +133,8 @@ export default function Home() {
             
               <div>
                 <motion.div   style={{transform: isInView ? "none" : "translateY(100px)", opacity: isInView ? 1 : 0, transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"}}className="portfolio_grid_item item3"
-                onClick={()=> {newWindow(projectList.curvitae)}}>
-                  <div className="item_heading_baseline">
+                onClick={()=> {newWindow(projectList.curvitae)}}
+                  ><div className="item_heading_baseline">
                     <h1 className="heading ftext">Curvitae</h1>
                     <div className="ts_bg nav_box">
                       <p className="paragraph btext">.ts</p>
