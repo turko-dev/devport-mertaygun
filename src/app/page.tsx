@@ -140,7 +140,7 @@ export default function Home() {
                       <p className="paragraph btext">.ts</p>
                     </div>
                   </div>
-                  <p className="paragraph ftext">Curvitae is an online CV templating and hosting platform that attempts to change the way we see CVs and job applications.</p>
+                  <p className="paragraph ftext">(Work In Progress) Curvitae is an online CV templating and hosting platform that attempts to change the way we see CVs and job applications.</p>
                   <div className="item_heading">
                     <div className="nav_box">
                       <p className="paragraph ftext">Online Platform</p>
