@@ -194,8 +194,9 @@ export default function Home() {
               </div>
 
               <div>
-                <motion.div  style={{transform: isInView ? "none" : "translateY(100px)",
+                <motion.div onClick={()=> {newWindow(projectList.codetagmarkup)}} style={{transform: isInView ? "none" : "translateY(100px)",
                   opacity: isInView ? 1 : 0,
+                  
                   transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1"}}
                   className="portfolio_grid_item item6">
                       <div className="item_heading">
