@@ -7,7 +7,7 @@ import Link from "next/link"
 export default function Home() {
   const projectList = {
     sweetmapper: "https://github.com/turko-dev/sweetmapper",
-    codetagmarkup: "https://google.com",
+    codetagmarkup: "https://codetagmarkup.vercel.app/",
     curvitae: "https://google.com",
     turkolib: "https://github.com/turko-dev/turko-lib",
     
