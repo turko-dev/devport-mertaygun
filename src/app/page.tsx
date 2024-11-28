@@ -10,7 +10,11 @@ export default function Home() {
     codetagmarkup: "https://google.com",
     curvitae: "https://google.com",
     turkolib: "https://github.com/turko-dev/turko-lib",
+    
+    
     certificate: "https://www.freecodecamp.org/certification/Mert_Aygun/responsive-web-design",
+
+
     insta: "https://www.instagram.com/turko.mcr/",
     linkedin: "https://www.linkedin.com/in/mert-aygun/",
     github: "https://github.com/turko-dev"
