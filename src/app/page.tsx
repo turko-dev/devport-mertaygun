@@ -237,7 +237,7 @@ export default function Home() {
                 <div className="js_bg nav_box">
                 <p className="paragraph ttext">BSc Computer Science</p>
                 </div>
-                <p className="paragraph btext"><i>Grades N/a</i></p>
+                <p className="paragraph btext"><i>Expected 2:1</i></p>
               </div>
             </div>
             <div className="experiences">
