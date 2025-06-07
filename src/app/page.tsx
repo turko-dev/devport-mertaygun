@@ -139,7 +139,7 @@ export default function Home() {
                       <p className="paragraph btext">.ts</p>
                     </div>
                   </div>
-                  <p className="paragraph ftext">Pro Learn Driving School's website helps their business for marketing and sales funnel purposes but also organises a schedule for the driving instructor.</p>
+                  <p className="paragraph ftext">Pro Learn Driving School&apos;s website helps their business for marketing and sales funnel purposes but also organises a schedule for the driving instructor.</p>
                   <div className="item_heading">
                     <div className="nav_box">
                       <p className="paragraph ftext">Website</p>
