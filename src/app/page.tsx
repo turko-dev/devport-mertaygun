@@ -8,7 +8,7 @@ export default function Home() {
   const projectList = {
     sweetmapper: "https://github.com/turko-dev/sweetmapper",
     codetagmarkup: "https://codetagmarkup.vercel.app/",
-    curvitae: "/",
+    prolearndrivingschool: "https://prolearndrivingschool.com/",
     turkolib: "https://github.com/turko-dev/turko-lib",
     
     certificate: "https://www.freecodecamp.org/certification/Mert_Aygun/responsive-web-design",
@@ -33,7 +33,6 @@ export default function Home() {
           <div className="nav_links">
             <a href="#portfolio" className="paragraph ftext">Portfolio</a>
             <a href="#experience" className="paragraph ftext">Experience</a>
-            <a href="#about" className="paragraph ftext">About</a>
             <a href="#contact" className="paragraph ftext">Contact</a>
           </div>
           <div className="nav_links">
@@ -133,17 +132,17 @@ export default function Home() {
             
               <div>
                 <motion.div   style={{transform: isInView ? "none" : "translateY(100px)", opacity: isInView ? 1 : 0, transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"}}className="portfolio_grid_item item3"
-                onClick={()=> {newWindow(projectList.curvitae)}}
+                onClick={()=> {newWindow(projectList.prolearndrivingschool)}}
                   ><div className="item_heading_baseline">
-                    <h1 className="heading ftext">Curvitae</h1>
+                    <h1 className="heading ftext">PLDS</h1>
                     <div className="ts_bg nav_box">
                       <p className="paragraph btext">.ts</p>
                     </div>
                   </div>
-                  <p className="paragraph ftext">(Work In Progress) Curvitae is an online CV templating and hosting platform that attempts to change the way we see CVs and job applications.</p>
+                  <p className="paragraph ftext">Pro Learn Driving School's website helps their business for marketing and sales funnel purposes but also organises a schedule for the driving instructor.</p>
                   <div className="item_heading">
                     <div className="nav_box">
-                      <p className="paragraph ftext">Online Platform</p>
+                      <p className="paragraph ftext">Website</p>
                     </div>  
                   </div>
                 </motion.div>
@@ -176,15 +175,15 @@ export default function Home() {
                   transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.075s"}} 
                   className="portfolio_grid_item item25">
                     <div className="item_heading">
-                        <h1 className="heading ftext">Tadow</h1>
+                        <h1 className="heading ftext">More Coming Soon.</h1>
                           <div className="py_bg nav_box">
-                            <p className="paragraph btext">.cpp</p>
+                            <p className="paragraph btext">?</p>
                           </div>
                       </div>
-                      <p className="paragraph ftext">Tadow is a code text editor made natively for desktops such as Windows, Mac & Linux and is specifically used to develop Next.js projects.</p>
+                      <p className="paragraph ftext">...</p>
                       <div className="item_heading">
                         <div className="nav_box">
-                          <p className="paragraph ftext">Text Editor</p>
+                          <p className="paragraph ftext">...</p>
                         </div>
                     </div>
 
@@ -256,42 +255,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div id="about" className="about">
-          <p className="heading shadow ftext">About</p>
-            <div className="about_info">
-                  <div className="about_section">
-                    <div className="nav_box">
-                      <p className="paragraph ftext">Born in Kingston Upon Hull, UK. I had an upbringing heavily involving computer hardware and computer-related media around me.</p>
-                    </div>
-                  </div>
-                  <div className="about_section">
-                    <div className="nav_box">
-                      <p className="paragraph ftext">Taught myself Java at 14 years old to a level where I could create system apps and complicated CLI applications.</p>
-                    </div>
-                  </div>
-                  <div className="about_section">
-                    <div className="nav_box">
-                      <p className="paragraph ftext">Began learning Python & JavaScript at 17 and mastered the two by the age of 19.</p>
-                    </div>
-                  </div>
-                  <div className="about_section">
-                    <div className="nav_box">
-                      <p className="paragraph ftext">Started a web-design agency at 18 with my friend from University and failed miserably.</p>
-                    </div>
-                  </div>
-                  <div className="about_section">
-                    <div className="nav_box">
-                      <p className="paragraph ftext">Used this failure as fuel to keep thinking of ideas that could push me into the industry.</p>
-                    </div>
-                  </div>
-                  <div className="about_section">
-                    <div className="nav_box">
-                      <p className="paragraph ftext">At 20, I started to develop my own Python GUI Framework as a more functional alternative to Tkinter and PyQT</p>
-                    </div>
-                  </div>
-            </div>
-            
-          </div>
+          
           <div className="skills">
           <p className="heading shadow ftext">Under The Belt</p>
             <div className="about_info">
