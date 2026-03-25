@@ -10,7 +10,7 @@ export default function Home() {
       <div className="navbar-wrapper">
         <div className="navbar">
           <h1 className="font-large color-dark font-thin">Mert Aygun</h1>
-          <p className="font-medium color-dark font-thin">Text</p>
+          <p className="font-medium color-dark font-thin">2026</p>
         </div>
       </div>
 
