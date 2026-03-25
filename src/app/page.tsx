@@ -19,7 +19,7 @@ export default function Home() {
         <div className="section">
           <div className="heading">
             <h1 className="font-title color-dark font-thin">Projects</h1>
-            <Image alt="Projects Icon" height={50} width={50} src={projectsIcon} />
+            <Image className="icon" alt="Projects Icon" height={50} width={50} src={projectsIcon} />
           </div>
           <div className="section-items">
             <div className="section-item">
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="section">
           <div className="heading">
             <h1 className="font-title color-dark font-thin">Academia</h1>
-            <Image alt="Projects Icon" height={50} width={50} src={studentIcon} />
+            <Image className="icon" alt="Projects Icon" height={50} width={50} src={studentIcon} />
           </div>
           <div className="section-items">
             <div className="section-item">
@@ -67,7 +67,7 @@ export default function Home() {
         <div className="section">
           <div className="heading">
             <h1 className="font-title color-dark font-thin">Soft Skills</h1>
-            <Image alt="Projects Icon" height={50} width={50} src={softSkillsIcon} />
+            <Image className="icon" alt="Projects Icon" height={50} width={50} src={softSkillsIcon} />
           </div>
           <div className="section-items">
             <div className="section-item">

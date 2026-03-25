@@ -60,6 +60,9 @@
   border-radius:20px;;
   padding:var(--margin) 15px var(--margin) 15px;
 }
+.icon {
+
+}
 
 .wrapper {
   gap:var(--margin);
@@ -118,9 +121,11 @@
   gap:var(--margin);
 }
 .section-item {
+  padding:20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap:var(--margin);
   flex-direction: column;
   border-radius:var(--margin);
@@ -151,6 +156,10 @@
   }
   .section-item {
     height:300px;
+  }
+  .icon {
+    width:30px;
+    height:30px;
   }
 }
 
