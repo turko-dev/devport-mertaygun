@@ -7,11 +7,7 @@ const lex = localFont({
   variable: "--lex",
   weight: "100 900",
 });
-const title = localFont({
-  src: "./fonts/DynaPuff-VariableFont_wdth,wght.ttf",
-  variable: "--title",
-  weight: "400 700",
-});
+
 
 export const metadata: Metadata = {
   title: "Mert Aygun",
@@ -27,8 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lex.variable} ${title.variable} antialiased`}
-      >
+        className={`${lex.variable} antialiased`}>
         {children}
       </body>
     </html>
