@@ -151,7 +151,7 @@
 
 
 .projects-gallery {
-  width:var(--section-width);
+  width:var(--breakpoint);
   height:fit-content;
   gap:var(--margin);
   display: flex;
@@ -205,7 +205,7 @@
   width:var(--section-width);
   height:fit-content;
   gap:var(--margin);
-  display: flex;
+  display: none;
   padding:var(--gap);
   justify-content: baseline;
   align-items: center;

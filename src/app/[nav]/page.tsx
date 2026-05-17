@@ -298,6 +298,13 @@ export default function Home() {
             <p onClick={()=> setSelectedFilter("CSS")} className={`font font-regular ${selectedFilter == "CSS" ? 'projects-selected' : ''} color-fg font-slim`}>CSS</p>
           </div>
         </div>
+        
+        <div className="vertical-combine">
+        <p className="font font-large font-slim">My Projects</p>
+        <p className="font font-regular font-slim">A complete list of my work including website development, software, and side projects.</p>
+
+
+        </div>
         <div className="projects-gallery">
           <div className="projects-gallery-row">
             <div className="projects-gallery-col">
@@ -334,10 +341,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p className="font font-small font-slim">projects</p>
-        <p className="font font-regular font-slim">projects</p>
-        <p className="font font-medium font-slim">projects</p>
-        <p className="font font-large font-slim">projects</p>
+        
       </motion.div>
 
       {/* Academia */}
