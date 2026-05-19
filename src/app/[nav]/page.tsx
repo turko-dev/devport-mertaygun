@@ -16,6 +16,8 @@ import linkedin from '../imgs/li_logo.png'
 import { useParams } from 'next/navigation';
 import placeholder from '../imgs/projects-placeholder.png'
 import plds from '../imgs/plds_img.png'
+import mertaygun from '../imgs/mertaygun_img.png'
+
 
 export default function Home() {
     const params = useParams<{ nav: "1" | "2" | "3" | "4" }>()
@@ -127,7 +129,7 @@ export default function Home() {
                   type: "spring"
                 }}
                 
-                className="font font-regular font-slim"><span className="color-primary">20</span><span className="color-primary-active">26</span></motion.p>
+                className="font font-regular font-slim"><span className="color-primary">Website under </span><span className="color-primary-active">development</span></motion.p>
 
             </div>
         </div>
@@ -311,7 +313,7 @@ export default function Home() {
               <div className="projects-gallery-text"> 
                 <h1 className="font font-medium color-fg">DriveStruct</h1>
                 <p className="font font-regular color-fg font-slim">DriveStruct helps learner drivers find their ideal instructor - connecting learners and instructors on a feature-rich platform.</p>
-                <p className="font font-small color-fg">Built on Next.js with TypeScript</p>
+                <p className="font font-small color-fg">Built on Next.js and Supabase.js with TypeScript</p>
 
               </div>
 
@@ -325,7 +327,7 @@ export default function Home() {
               <div className="projects-gallery-text"> 
                 <h1 className="font font-medium color-fg">Pro Learn Driving School</h1>
                 <p className="font font-regular color-fg font-slim">A driving school based in Manchester & Stockport helping to create confident and responsible drivers.</p>
-                <p className="font font-small color-fg">Built on Next.js with TypeScript</p>
+                <p className="font font-small color-fg">Built on Next.js and Supabase.js with TypeScript</p>
 
               
               </div>
@@ -335,13 +337,14 @@ export default function Home() {
             </div>
           </div>
           <div className="projects-gallery-row">
-             <div className="projects-gallery-col">
+             <div className="projects-gallery-col" onClick={()=> {href("https://mertaygun.co.uk/", true)}}>
               <div className="projects-gallery-text"> 
-                <h1 className="font font-medium color-fg">Project Name</h1>
-                <p className="font font-regular color-fg font-slim">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod rem assumenda corrupti vero autem provident.</p>
+                <h1 className="font font-medium color-fg">mertaygun.co.uk</h1>
+                <p className="font font-regular color-fg font-slim">A developer portfolio I built to show off my best projects and a way for people to reach me via social channels or email.</p>
+                <p className="font font-small color-fg">Built on Next.js with TypeScript</p>
               </div>
 
-              <div className="projects-gallery-image"></div>
+              <div className="projects-gallery-image" style={{backgroundImage: `url(${mertaygun.src})`}}></div>
 
             </div>
           </div>

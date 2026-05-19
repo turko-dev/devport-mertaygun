@@ -169,6 +169,7 @@
   gap:var(--margin);
 }
 .projects-gallery-col {
+  cursor: pointer;
   border-radius: var(--border-radius);
   display: flex;
   justify-content: space-between;
@@ -178,7 +179,11 @@
   min-height:300px;
   background-color: var(--whitesmoke);
   width:100%;
+  transition: background-color 0.2s ease-in-out
   
+}
+.projects-gallery-col:hover {
+  background-color: var(--primary-mono);
 }
 
 .projects-gallery-text {
