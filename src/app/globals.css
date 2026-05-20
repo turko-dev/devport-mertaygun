@@ -131,6 +131,7 @@
   align-items: baseline;
   gap:var(--margin);
 }
+
 .tech-stack-item {
   display: flex;
   gap:var(--gap);
@@ -141,7 +142,6 @@
   height:80px;
   min-width:100px;
   border-radius:200px;
-  background-color: var(--whitesmoke)
 
 }
 
@@ -149,11 +149,11 @@
   font-weight:350
 }
 .tech-stack-img {
-  height:50px;
+  height:35px;
   width:auto;
 }
 .tech-stack-font {
-  font-size:1.7rem;
+  font-size:1.3rem;
 }
 
 @media all and (max-width:700px) {
@@ -609,6 +609,12 @@
 
 .color-whitesmoke {
   color:var(--whitesmoke);
+}
+.bg-whitesmoke {
+  background-color:var(--whitesmoke);
+}
+.bg-grey {
+  background-color:rgb(227, 227, 227);
 }
 
 .color-bg {

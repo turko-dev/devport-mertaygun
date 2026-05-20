@@ -21,6 +21,18 @@ import next from '../imgs/next-img.png'
 import css from '../imgs/css-img.png'
 import html from '../imgs/html-img.png'
 import supabase from '../imgs/supabase-img.png'
+import githubImg from '../imgs/github-img.png'
+
+import independence from '../imgs/independence.png'
+import experience from '../imgs/experience.png'
+import teamcompatibility from '../imgs/teamcompatibility.png'
+import communication from '../imgs/communication.png'
+import education from '../imgs/education.png'
+import timemanagement from '../imgs/timemanagement.png'
+import coachable from '../imgs/coachable.png'
+
+
+
 
 import wyke from '../imgs/wyke.jpeg'
 import work from '../imgs/work.png'
@@ -193,7 +205,7 @@ export default function Home() {
                 <div className="projects-text">
                   <Image className="img-border" src={wyke} alt="Wyke Logo" height={40} />
                   <h1 className="font font-regular color-fg">Wyke College</h1>
-                  <p className="font font-regular color-fg font-slim">During secondary education, I also studied at Wyke College in Kingston Upon Hull and hold an extended diploma in Information Technology equivalent to 3 A-Levels.</p>
+                  <p className="font font-regular color-fg font-slim">During secondary education, I studied at Wyke College in Kingston Upon Hull and hold an extended diploma in Information Technology equivalent to 3 A-Levels.</p>
                 </div>
               </div>
 
@@ -415,7 +427,7 @@ export default function Home() {
               <div className="line"></div>
             </div>
             <div className="academia-end">
-              <p className="font font-small color-fg font-slim">During secondary education, I also studied at Wyke College in Kingston Upon Hull and hold an extended diploma in Information Technology equivalent to 3 A-Levels.</p>
+              <p className="font font-small color-fg font-slim">During secondary education, I studied at Wyke College in Kingston Upon Hull and hold an extended diploma in Information Technology equivalent to 3 A-Levels.</p>
             </div>
           </div>
         </div>
@@ -489,45 +501,49 @@ export default function Home() {
         </div>
         <div className="inner">
           <div className="tech-stack">
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">React.js</h1>
               <Image src={react} alt="Tech Stack Item" className="tech-stack-img"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">Next.js</h1>
               <Image src={next} alt="Tech Stack Item" className="tech-stack-img"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">Python</h1>
               <Image src={python} alt="Tech Stack Item" className="tech-stack-img"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">C++</h1>
               <Image src={cpp} alt="Tech Stack Item" className="tech-stack-img"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">JSX</h1>
               <Image src={jsx} alt="Tech Stack Item" className="tech-stack-img img-border-square-small"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">TypeScript</h1>
               <Image src={typescript} alt="Tech Stack Item" className="tech-stack-img img-border-square-small"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">JavaScript</h1>
               <Image src={javascript} alt="Tech Stack Item" className="tech-stack-img img-border-square-small"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">HTML</h1>
               <Image src={html} alt="Tech Stack Item" className="tech-stack-img"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">CSS</h1>
               <Image src={css} alt="Tech Stack Item" className="tech-stack-img"  />
             </div>
-            <div className="tech-stack-item">
+            <div className="tech-stack-item bg-whitesmoke">
               <h1 className="font tech-stack-font color-fg">Supabase</h1>
               <Image src={supabase} alt="Tech Stack Item" className="tech-stack-img"  />
+            </div>
+            <div className="tech-stack-item bg-whitesmoke">
+              <h1 className="font tech-stack-font color-fg">GitHub</h1>
+              <Image src={githubImg} alt="Tech Stack Item" className="tech-stack-img"  />
             </div>
           </div>
         </div>
@@ -535,8 +551,43 @@ export default function Home() {
           <h1 className="font font-large font-slim">Soft Skills</h1>
           <p className="font font-regular font-slim">Website is currently under development. More content will follow here.</p>
         </div>
-      </motion.div>
+        
+        <div className="inner">
+          <div className="tech-stack">
+            <div className="tech-stack-item bg-grey">
+              <h1 className="font tech-stack-font color-fg">Independence</h1>
+              <Image src={independence} alt="Tech Stack Item" className="tech-stack-img"  />
+            </div>
+            <div className="tech-stack-item bg-grey">
+              <h1 className="font tech-stack-font color-fg">Experience</h1>
+              <Image src={experience} alt="Tech Stack Item" className="tech-stack-img"  />
+            </div>
+            <div className="tech-stack-item bg-grey">
+              <h1 className="font tech-stack-font color-fg">Team-Compatibility</h1>
+              <Image src={teamcompatibility} alt="Tech Stack Item" className="tech-stack-img"  />
+            </div>
+            <div className="tech-stack-item bg-grey">
+              <h1 className="font tech-stack-font color-fg">Communication</h1>
+              <Image src={communication} alt="Tech Stack Item" className="tech-stack-img"  />
+            </div>
+            <div className="tech-stack-item bg-grey">
+              <h1 className="font tech-stack-font color-fg">University Education</h1>
+              <Image src={education} alt="Tech Stack Item" className="tech-stack-img"  />
+            </div>
+            <div className="tech-stack-item bg-grey">
+              <h1 className="font tech-stack-font color-fg">Time Management</h1>
+              <Image src={timemanagement} alt="Tech Stack Item" className="tech-stack-img"  />
+            </div>
+            <div className="tech-stack-item bg-grey">
+              <h1 className="font tech-stack-font color-fg">Coachability</h1>
+              <Image src={coachable} alt="Tech Stack Item" className="tech-stack-img"  />
+            </div>
+            
+          </div>
+        </div>
 
+      </motion.div>
+          
       {/* Footer */}
       <Footer />
     </div>
