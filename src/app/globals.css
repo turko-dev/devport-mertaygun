@@ -132,6 +132,103 @@
   gap:var(--page-gap);
 }
 
+
+/*Academia*/
+.academia {
+  width:var(--section-width);
+  height:fit-content;
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  flex-direction: column;
+  gap:var(--margin);
+}
+.academia-item {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:var(--margin);
+  height:250px;
+}
+
+.academia-item * {
+  border-radius:var(--border-radius);
+}
+
+.academia-start {
+  text-align: left;
+
+  width:100%;
+  gap:var(--gap);
+  background-color: var(--primary-active);
+  height:100%;
+  padding:calc(2 * var(--gap));
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+.academia-middle {
+  width:1200px;
+  text-align: center;
+
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:var(--margin);
+}
+.academia-end {
+  padding:var(--gap);
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  width:100%;
+  height:100%;
+}
+
+.academia-middle-short {
+  text-align: center;
+
+  width:1000px;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:var(--margin);
+}
+
+.academia-middle-shorter {
+  text-align: center;
+
+  width:800px;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:var(--margin);
+}
+
+.academia-middle-shortest {
+  width:600px;
+  text-align: center;
+
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:var(--margin);
+}
+
+.line {
+  width:100%;
+  height:1px;
+  background-color: var(--whitesmoke);
+}
+
+
 /*About Me*/
 .about-me {
   width:var(--section-width);
@@ -578,8 +675,19 @@
     padding:0;
     gap:var(--margin);
   }
-  
-
+  .academia-middle {
+    display: none;
+  }
+  .academia-middle-short {
+    display: none;
+  }
+  .academia-middle-shorter {
+    display: none;
+  }
+  .academia-middle-shortest {
+    display: none;
+  }
+ 
   
   
 }

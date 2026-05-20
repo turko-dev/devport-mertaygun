@@ -104,7 +104,7 @@ export default function Home() {
                     }}
                     className={`navbar-item ${activeNavigation == 3 ? 'navbar-item-active': ''}`} onClick={()=> href("/3", false)}>
                         <Image className="navbar-icon" height={20} width={20} alt="Icon" src={academiaIcon} />
-                        <p className="font font-nav color-fg">Academia</p>
+                        <p className="font font-nav color-fg">Personal</p>
                     </motion.div>
                     <motion.div
                     initial={{opacity:0}}
@@ -304,8 +304,6 @@ export default function Home() {
         <div className="vertical-combine">
         <p className="font font-large font-slim">My Projects</p>
         <p className="font font-regular font-slim">A complete list of my work including website development, software, and side projects.</p>
-
-
         </div>
         <div className="projects-gallery">
           <div className="projects-gallery-row">
@@ -343,9 +341,7 @@ export default function Home() {
                 <p className="font font-regular color-fg font-slim">A developer portfolio I built to show off my best projects and a way for people to reach me via social channels or email.</p>
                 <p className="font font-small color-fg">Built on Next.js with TypeScript</p>
               </div>
-
               <div className="projects-gallery-image" style={{backgroundImage: `url(${mertaygun.src})`}}></div>
-
             </div>
           </div>
         </div>
@@ -360,10 +356,97 @@ export default function Home() {
         delay:0.6,
         duration:0.8,
         type: "tween" }} className="page" style={{display: activeNavigation == 3 ? "flex" : "none"}}>
-        <p className="font font-small font-slim">academia</p>
-        <p className="font font-regular font-slim">academia</p>
-        <p className="font font-medium font-slim">academia</p>
-        <p className="font font-large font-slim">academia</p>
+        <div className="vertical-combine">
+        <p className="font font-large font-slim">Academia</p>
+        <p className="font font-regular font-slim">View my academic participations.</p>
+        </div>
+        <div className="academia">
+          {/**Middle**/}
+          <div className="academia-item">
+            <div className="academia-start">
+              <h1 className="font font-regular color-bg">MMU</h1>
+              <div className="vertical-combine">
+                <p className="font font-small color-bg font-slim">Manchester Metropolitan University</p>
+                <p className="font font-small color-bg font-slim">BSc Computer Science</p>
+              </div>
+            </div>
+            <div className="academia-middle-shortest">
+              <div className="line"></div>
+              <p className="font font-small color-whitesmoke font-slim">2023 2026</p>
+              <div className="line"></div>
+            </div>
+            <div className="academia-end">
+              <p className="font font-small color-fg font-slim">I studied Computer Science for 3 years at Manchester Metropolitan University and hold a Bachelor of Science degree.</p>
+
+            </div>
+          </div>
+          {/**Middle**/}
+          <div className="academia-item">
+            <div className="academia-start">
+              <h1 className="font font-regular color-bg">Wyke College</h1>
+              <div className="vertical-combine">
+                <p className="font font-small color-bg font-slim">Wyke 6th Form College</p>
+                <p className="font font-small color-bg font-slim">Extended Diploma Information Technology</p>
+              </div>
+
+            </div>
+            <div className="academia-middle-shorter">
+              <div className="line"></div>
+              <p className="font font-small color-whitesmoke font-slim">2021 2023</p>
+              <div className="line"></div>
+            </div>
+            <div className="academia-end">
+              <p className="font font-small color-fg font-slim">During secondary education, I also studied at Wyke College in Kingston Upon Hull and hold an extended diploma in Information Technology equivalent to 3 A-Levels.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="vertical-combine">
+        <p className="font font-large font-slim">Certifications</p>
+        <p className="font font-regular font-slim">View my certifications.</p>
+        </div>
+
+        <div className="academia">
+          {/**Middle**/}
+          {/**Middle**/}
+          <div className="academia-item">
+            <div className="academia-start">
+              <h1 className="font font-regular color-bg">GDPR Compliance: Essential Training</h1>
+              <div className="vertical-combine">
+                <p className="font font-small color-bg font-slim">By Mandy Huth</p>
+                <p className="font font-small color-bg font-slim">LinkedIn Learning</p>
+              </div>
+            </div>
+            <div className="academia-middle-shorter">
+              <div className="line"></div>
+              <p className="font font-small color-whitesmoke font-slim">2025</p>
+              <div className="line"></div>
+            </div>
+            <div className="academia-end">
+              <p className="font font-small color-fg font-slim">The GDPR Compliance: Essential Training course covers legal compliance regarding data and details the general data protection regulation. The course consists of 33 videos and approximately 1 hour and 24 minutes of learning content. View my certification <a href="https://www.linkedin.com/learning/certificates/e92866f6078c262625cd1df699dc77ed4df21dc6cc79a469c876349c4e523da2?trk=share_certificate" target="_blank" className="underline color-primary">here</a>.</p>
+            </div>
+          </div>
+          <div className="academia-item">
+            <div className="academia-start">
+              <h1 className="font font-regular color-bg">Learning the JavaScript Language</h1>
+              <div className="vertical-combine">
+                <p className="font font-small color-bg font-slim">By Joe Chellman</p>
+                <p className="font font-small color-bg font-slim">LinkedIn Learning</p>
+              </div>
+            </div>
+            <div className="academia-middle-shortest">
+              <div className="line"></div>
+              <p className="font font-small color-whitesmoke font-slim">2025</p>
+              <div className="line"></div>
+            </div>
+            <div className="academia-end">
+              <p className="font font-small color-fg font-slim">This certification covers key areas in the JavaScript programming language. The course contains 52 videos and approximately 4 hours and 7 minutes of learning content. View my certificate <a className="underline color-primary" target="_blank" href="https://www.linkedin.com/learning/certificates/149292d4cbb73d30315e36a5c1dcb6806bd550144083c7ce8067eea455b3b24d?trk=share_certificate">here</a>.</p>
+
+            </div>
+          </div>
+        </div>
+
+
       </motion.div>
 
       {/* Soft Skills */}
