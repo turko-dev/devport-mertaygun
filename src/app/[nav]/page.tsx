@@ -364,7 +364,10 @@ export default function Home() {
           {/**Middle**/}
           <div className="academia-item">
             <div className="academia-start">
-              <h1 className="font font-regular color-bg">MMU</h1>
+              <div className="academia-title">
+                <h1 className="font font-regular color-bg">MMU</h1>
+                <p className="font font-small color-whitesmoke font-slim">2023 - 2026</p>
+              </div>
               <div className="vertical-combine">
                 <p className="font font-small color-bg font-slim">Manchester Metropolitan University</p>
                 <p className="font font-small color-bg font-slim">BSc Computer Science</p>
@@ -383,7 +386,10 @@ export default function Home() {
           {/**Middle**/}
           <div className="academia-item">
             <div className="academia-start">
-              <h1 className="font font-regular color-bg">Wyke College</h1>
+              <div className="academia-title">
+                <h1 className="font font-regular color-bg">Wyke College</h1>
+                <p className="font font-small color-whitesmoke font-slim">2021 - 2023</p>
+              </div>
               <div className="vertical-combine">
                 <p className="font font-small color-bg font-slim">Wyke 6th Form College</p>
                 <p className="font font-small color-bg font-slim">Extended Diploma Information Technology</p>
@@ -411,7 +417,10 @@ export default function Home() {
           {/**Middle**/}
           <div className="academia-item">
             <div className="academia-start">
-              <h1 className="font font-regular color-bg">GDPR Compliance: Essential Training</h1>
+              <div className="academia-title">
+                <h1 className="font font-regular color-bg">GDPR Compliance: Essential Training</h1>
+                <p className="font font-small color-whitesmoke font-slim">2025</p>
+              </div>
               <div className="vertical-combine">
                 <p className="font font-small color-bg font-slim">By Mandy Huth</p>
                 <p className="font font-small color-bg font-slim">LinkedIn Learning</p>
@@ -428,7 +437,10 @@ export default function Home() {
           </div>
           <div className="academia-item">
             <div className="academia-start">
-              <h1 className="font font-regular color-bg">Learning the JavaScript Language</h1>
+              <div className="academia-title">
+                <h1 className="font font-regular color-bg">Learning the JavaScript Language</h1>
+                <p className="font font-small color-whitesmoke font-slim">2025</p>
+              </div>
               <div className="vertical-combine">
                 <p className="font font-small color-bg font-slim">By Joe Chellman</p>
                 <p className="font font-small color-bg font-slim">LinkedIn Learning</p>
