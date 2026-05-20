@@ -549,7 +549,7 @@ export default function Home() {
         </div>
         <div className="vertical-combine">
           <h1 className="font font-large font-slim">Soft Skills</h1>
-          <p className="font font-regular font-slim">Website is currently under development. More content will follow here.</p>
+          <p className="font font-regular font-slim">I pride myself on my soft skills. In some situations, they become more necessary than technical skills.</p>
         </div>
         
         <div className="inner">
