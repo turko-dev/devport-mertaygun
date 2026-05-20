@@ -129,7 +129,7 @@ export default function Home() {
                   type: "spring"
                 }}
                 
-                className="font font-regular font-slim"><span className="color-primary">Website under </span><span className="color-primary-active">development</span></motion.p>
+                className="font font-regular font-slim"><span className="color-primary">20</span><span className="color-primary-active">26</span></motion.p>
 
             </div>
         </div>
@@ -156,6 +156,44 @@ export default function Home() {
           </div>
           <div className="homepage-hero-image" style={{backgroundImage: `url(${placeholder.src})`}}>
 
+          </div>
+        </div>
+
+        <div className="about-me">
+          <div className="vertical-combine">
+            <p className="font font-large font-slim color-fg">About Me</p>
+            <p className="font font-regular font-slim color-fg">My name's Mert, and i'm a software developer from the UK. I'm currently working on <a className="underline" href="https://drivestruct.com/" target="_blank">drivestruct.com</a> beside building other software applications that solve real-world problems. <a className="font-primary underline" href="/3">Visit here</a> to read more about me.</p>
+          </div>
+          <div className="inner">
+            <div className="projects-row">
+
+
+              <div className="projects-col">
+                <div className="projects-text">
+                  <Image src={mmu} alt="MMU Logo" height={40} />
+                  <h1 className="font font-regular color-fg">Manchester Metropolitan University</h1>
+                  <p className="font font-regular color-fg font-slim">I studied Computer Science for 3 years at Manchester Metropolitan University and currently hold a <span className="underline">Bachelor of Science</span> degree.</p>
+                </div>
+              </div>
+
+              <div className="projects-col">
+                <div className="projects-text">
+                  <Image className="img-border" src={wyke} alt="Wyke Logo" height={40} />
+                  <h1 className="font font-regular color-fg">Wyke College</h1>
+                  <p className="font font-regular color-fg font-slim">During secondary education, I also studied at Wyke College in Kingston Upon Hull and hold an extended diploma in Information Technology equivalent to 3 A-Levels.</p>
+                </div>
+              </div>
+
+              <div className="projects-col">
+                <div className="projects-text">
+                  <Image className="img-border" src={work} alt="Experience Logo" height={40} />
+                  <h1 className="font font-regular color-fg">Pre-Graduate Work Experience</h1>
+                  <p className="font font-regular color-fg font-slim">Prior to graduating, I juggled jobs often as a waiter, kitchen porter, service-desk, leaflet distributor, and web-development freelancer during my years at university.</p>
+                </div>
+              </div>
+
+
+            </div>
           </div>
         </div>
         <div className="featured-projects">
@@ -195,44 +233,6 @@ export default function Home() {
             </div>
           </div>
 
-        </div>
-
-        <div className="about-me">
-          <div className="vertical-combine">
-            <p className="font font-large font-slim color-fg">About Me</p>
-            <p className="font font-regular font-slim color-fg">My name's Mert, and i'm a software developer from the UK. I'm currently working on <a className="underline" href="https://drivestruct.com/" target="_blank">drivestruct.com</a> beside building other software applications that solve real-world problems.</p>
-          </div>
-          <div className="inner">
-            <div className="projects-row">
-
-
-              <div className="projects-col">
-                <div className="projects-text">
-                  <Image src={mmu} alt="MMU Logo" height={40} />
-                  <h1 className="font font-regular color-fg">Manchester Metropolitan University</h1>
-                  <p className="font font-regular color-fg font-slim">I studied Computer Science for 3 years at Manchester Metropolitan University and currently hold a <span className="underline">Bachelor of Science</span> degree.</p>
-                </div>
-              </div>
-
-              <div className="projects-col">
-                <div className="projects-text">
-                  <Image className="img-border" src={wyke} alt="Wyke Logo" height={40} />
-                  <h1 className="font font-regular color-fg">Wyke College</h1>
-                  <p className="font font-regular color-fg font-slim">During secondary education, I also studied at Wyke College in Kingston Upon Hull and hold an extended diploma in Information Technology equivalent to 3 A-Levels.</p>
-                </div>
-              </div>
-
-              <div className="projects-col">
-                <div className="projects-text">
-                  <Image className="img-border" src={work} alt="Experience Logo" height={40} />
-                  <h1 className="font font-regular color-fg">Pre-Graduate Work Experience</h1>
-                  <p className="font font-regular color-fg font-slim">Prior to graduating, I juggled jobs often as a waiter, kitchen porter, service-desk, leaflet distributor, and web-development freelancer during my years at university.</p>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
         </div>
         <div className="contact">
           <div className="vertical-combine">
