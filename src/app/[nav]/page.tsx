@@ -22,7 +22,7 @@ import css from '../imgs/css-img.png'
 import html from '../imgs/html-img.png'
 import supabase from '../imgs/supabase-img.png'
 import githubImg from '../imgs/github-img.png'
-
+import { Analytics } from "@vercel/analytics/next"
 import independence from '../imgs/independence.png'
 import experience from '../imgs/experience.png'
 import teamcompatibility from '../imgs/teamcompatibility.png'
@@ -71,6 +71,7 @@ export default function Home() {
   return auth &&  (
     <div className="page-wrapper">
       {/* Navigation */}
+      <Analytics />
       <div className="navbar-wrapper">
             <div className="navbar">
                 <motion.p
