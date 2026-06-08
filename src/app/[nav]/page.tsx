@@ -42,6 +42,8 @@ import { useParams } from 'next/navigation';
 import placeholder from '../imgs/projects-placeholder.png'
 import plds from '../imgs/plds_img.png'
 import mertaygun from '../imgs/mertaygun_img.png'
+import sterling from '../imgs/sterling_img.png'
+
 
 
 export default function Home() {
@@ -343,6 +345,14 @@ export default function Home() {
 
               <div className="projects-gallery-image" style={{backgroundImage: `url(${drivestruct.src})`}}></div>
 
+            </div>
+            <div className="projects-gallery-col" onClick={()=> {href("https://github.com/turko-dev/sterling", true)}}>
+              <div className="projects-gallery-text"> 
+                <h1 className="font font-medium color-fg">Sterling</h1>
+                <p className="font font-regular color-fg font-slim">Sterling is a modern desktop application that leverages active recall methods to help students retain and remember information and study for exams.</p>
+                <p className="font font-small color-fg">Built on Electron.js with TypeScript</p>
+              </div>
+              <div className="projects-gallery-image" style={{backgroundImage: `url(${sterling.src})`}}></div>
             </div>
             
           </div>
